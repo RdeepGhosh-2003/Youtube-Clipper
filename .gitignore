@@ -1,0 +1,29 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache & logs
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+server.log
+
+# Backend downloads and temporary media files
+backend/downloads/*
+!backend/downloads/.gitkeep
+
+# Node & Frontend dependencies
+node_modules/
+frontend/node_modules/
+frontend/.vite-temp/
+.eslintcache
+*.local
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
